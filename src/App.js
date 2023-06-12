@@ -1,11 +1,13 @@
-// import '../style file';
 import React from "react";
+import Navbar from "./components/Navbar";
+import CartContainer from "./components/CartContainer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
   );
 }
 
